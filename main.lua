@@ -1,6 +1,5 @@
 --[[----------------------------------------------
 			Vocabulary and logic
-
 ----------------------------------------------]]--
 voc = { 'piedra', 'papel', 'tijeras', 'lagarto', 'spock' }
 
@@ -51,26 +50,3 @@ else
 end
 
 io.read( "*line" )
-
---[[----------------------------------------------
-	How to read from console:
---------------------------------------------------
-
-	var = io.read ( arg ) -- where arg is:
-
-	"*all"		reads the whole file
-	"*line"		reads the next line
-	"*number"	reads a number
-	num			reads a string with up to num characters
-----------------------------------------------]]--
-
---[[----------------------------------------------
-	Random number:
---------------------------------------------------
-
-	math.randomseed	( arg )
-	math.random 	( min, max )
-
-	-- arg is the seed
-
-----------------------------------------------]]--
